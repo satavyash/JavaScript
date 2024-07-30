@@ -1,0 +1,50 @@
+body {
+    font-family: Arial ;
+    background-image: url('incub.png');
+    background-color: #737070;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #9d9c9c;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(91, 89, 89, 0);
+}
+
+h1, h2 {
+    margin-top: 3;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#contactFormSection {
+    margin-top: 20px;
+}
+
+#contactsSection {
+    margin-top: 20px;
+}
+
+#contactList {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-item {
+    padding: 10px;
+    border-bottom: 1px solid #f8f5f5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item button {
+    margin-left: 10px;
+}

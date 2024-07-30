@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact List</h1>
+        <button id="addContactBtn">Add Contact</button>
+
+        <div id="contactFormSection" style="display: none;">
+            <h2>Add and Edit Contacts </h2>
+            <form id="contactForm">
+                <input type="hidden" id="contactId">
+              
+                <label for="name">Name:</label>
+               <input type="text" id="name" required>
+               
+               <label for="email">Email:</label>
+               <input type="text" id="email" required>
+               
+               <label for="phone">Phone Number:</label>
+               <input type="text" id="phone" required>
+              
+               <button type="submit">Save</button>
+
+                <button type="button" id="cancelBtn">Cancel</button>
+            </form>
+        </div>
+
+        <div id="contactsSection">
+            <h2>My Contacts</h2>
+            <ul id="contactList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
